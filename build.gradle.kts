@@ -11,6 +11,8 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+
+    implementation("com.h2database:h2:2.1.214") // Controlador H2
 }
 
 tasks.test {
